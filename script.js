@@ -2,11 +2,11 @@ $(document).ready(function() {
 
 // Start your code from here
     //INIT----------------
-    var estatico = ["Dog", "Cat", "Horse"]
+    var temas = ["Dog", "Cat", "Horse"]
 
-    for(var i = 0; i < estatico.length; i++){
-        console.log(estatico[i])
-        $("#animal-buttons").append(`<button class="buttonSearch"> ${estatico[i]}</button>`)
+    for(var i = 0; i < temas.length; i++){
+        console.log(temas[i])
+        $("#animal-buttons").append(`<button class="buttonSearch"> ${temas[i]}</button>`)
     }
 
     //ATIONS---------
