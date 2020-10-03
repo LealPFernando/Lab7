@@ -5,6 +5,9 @@ body {
 
 #animals {
   width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 .animal-item {

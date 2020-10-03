@@ -51,7 +51,8 @@ $(document).ready(function() {
                 imagen.attr("data-move", response.data[i].images.fixed_height.url)
                 imagen.attr("data-state", "no")
                 imagen.addClass("animal-item")
-                $("#animals").append(imagen)
+                var gif = $(`<div id="gif"><p>rating: ${response.data[i].rating}</p></div>`).append(imagen)
+                $("#animals").append(gif)
             }
         })
     }
